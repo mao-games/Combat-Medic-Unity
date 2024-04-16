@@ -11,14 +11,19 @@ public class Buttons : MonoBehaviour
 
     [SerializeField]
     private GameObject LevelChoisePanel;
+    
+    [SerializeField]
+    private GameObject SettingsPanel;
 
     private List<string> levelTitles = new List<string>();
     private List<string> levelDescs = new List<string>();
+    public List<Sprite> LevelPictures = new List<Sprite>();
 
-    public TextAlignment LevelTitle;
-    public TextAlignment LevelDesc;
+    public Text LevelTitle;
+    public Text LevelDesc;
+    public Image LevelPicture;
 
-    private int CurrentLevel;
+    private int CurrentLevel = 0;
     
     public void Start()
     {
@@ -29,6 +34,13 @@ public class Buttons : MonoBehaviour
         levelDescs.Add("Ви прокинулися від вибуху і вам потрібно приймати рішення, як діяти, щоб вижити");
         levelDescs.Add("2");
         levelDescs.Add("3");
+
+    }
+    private void Update()
+    {
+        LevelTitle.text = levelTitles[CurrentLevel];
+        LevelDesc.text = levelDescs[CurrentLevel];
+        LevelPicture.sprite = LevelPictures[CurrentLevel];
     }
     public void BtnStartGame()
     {
@@ -38,14 +50,34 @@ public class Buttons : MonoBehaviour
 
     public void LeftSwipe()
     {
-        if(CurrentLevel >0)
+        if(CurrentLevel > 0)
         {
-            return;
+            CurrentLevel--;
+
         }
     }
     public void RightSwipe()
     {
+        if (CurrentLevel < (LevelPictures.Count-1))
+        {
+            CurrentLevel++;
+        }
+    }
 
+    public void Back()
+    {
+        StartPanel.SetActive(true);
+        LevelChoisePanel.SetActive(false);
+    }
+
+    public void Settings()
+    {
+        SettingsPanel.SetActive(true);
+    }
+
+    public void CloseBtn()
+    {
+        SettingsPanel.SetActive(false);
     }
 
 }
