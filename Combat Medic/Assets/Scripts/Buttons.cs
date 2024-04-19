@@ -16,6 +16,9 @@ public class Buttons : MonoBehaviour
     [SerializeField]
     private GameObject SettingsPanel;
 
+     [SerializeField]
+    private GameObject AboutUsPanel;
+
     private List<string> levelTitles = new List<string>();
     private List<string> levelDescs = new List<string>();
     public List<Sprite> LevelPictures = new List<Sprite>();
@@ -70,6 +73,16 @@ public class Buttons : MonoBehaviour
         StartPanel.SetActive(true);
         LevelChoisePanel.SetActive(false);
     }
+    public void Back2()
+    {
+        SettingsPanel.SetActive(false);
+        LevelChoisePanel.SetActive(true);
+    }
+     public void Back3()
+    {
+        SettingsPanel.SetActive(true);
+        AboutUsPanel.SetActive(false);
+    }
 
     public void Settings()
     {
@@ -79,10 +92,23 @@ public class Buttons : MonoBehaviour
     public void CloseBtn()
     {
         SettingsPanel.SetActive(false);
+        LevelChoisePanel.SetActive(true);
+    }
+    public void CloseBtn2()
+    {
+        AboutUsPanel.SetActive(false);
+        LevelChoisePanel.SetActive(true);
     }
     public void PlayLevel()
     {
         SceneManager.LoadScene(CurrentLevel+1);
     }
+    public void AboutUs()
+    {
+        SettingsPanel.SetActive(false);
+        AboutUsPanel.SetActive(true);
+    }
+
+
 
 }
