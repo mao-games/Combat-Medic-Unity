@@ -15,7 +15,7 @@ D:/GitHubDesktop/Combat-Medic-Unity/Combat Medic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56202
+62432
 Successfully changed project path to: D:/GitHubDesktop/Combat-Medic-Unity/Combat Medic
 D:/GitHubDesktop/Combat-Medic-Unity/Combat Medic
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/GitHubDesktop/Combat-Medic-Unity/Combat Medic
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11972] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4182260279 [EditorId] 4182260279 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5BBSKVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3459810931 [EditorId] 3459810931 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5BBSKVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11972] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4182260279 [EditorId] 4182260279 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5BBSKVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3459810931 [EditorId] 3459810931 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5BBSKVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 189.49 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 197.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GitHubDesktop/Combat-Medic-Unity/Combat Medic/Assets
@@ -68,219 +68,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013717 seconds.
+Registered in 0.020540 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1163 ms
-Refreshing native plugins compatible for Editor in 208.90 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 1308 ms
+Refreshing native plugins compatible for Editor in 159.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.01 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.836 seconds
+- Completed reload, in  5.751 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4839ms)
-		BeginReloadAssembly (590ms)
+	ReloadAssembly (5755ms)
+		BeginReloadAssembly (723ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (7ms)
-		EndReloadAssembly (3877ms)
-			LoadAssemblies (578ms)
+			CreateAndSetChildDomain (10ms)
+		EndReloadAssembly (4550ms)
+			LoadAssemblies (712ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (3322ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (3829ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1993ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (209ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (793ms)
-				ProcessInitializeOnLoadMethodAttributes (304ms)
+				InitializePlatformSupportModulesInManaged (2227ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (432ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013324 seconds.
+Registered in 0.010660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 142.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 220.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  5.523 seconds
+- Completed reload, in  8.704 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5531ms)
-		BeginReloadAssembly (757ms)
+	ReloadAssembly (8712ms)
+		BeginReloadAssembly (1149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (73ms)
+			DisableScriptedObjects (84ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (4364ms)
-			LoadAssemblies (505ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (6650ms)
+			LoadAssemblies (861ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (3057ms)
+			SetupTypeCache (701ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (222ms)
+			SetupLoadedEditorAssemblies (4413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (194ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (2102ms)
-				ProcessInitializeOnLoadMethodAttributes (349ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (252ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (403ms)
+				ProcessInitializeOnLoadAttributes (2976ms)
+				ProcessInitializeOnLoadMethodAttributes (529ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.03 ms.
-Unloading 4579 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (46.4 KB). Loaded Objects now: 5040.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Unloading 4581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (46.5 KB). Loaded Objects now: 5042.
 Memory consumption went from 172.7 MB to 172.7 MB.
-Total: 5.173208 ms (FindLiveObjects: 0.423542 ms CreateObjectMapping: 0.442375 ms MarkObjects: 4.147833 ms  DeleteObjects: 0.123208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029835 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.12 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in 40.209 seconds
-Domain Reload Profiling:
-	ReloadAssembly (40217ms)
-		BeginReloadAssembly (3915ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (528ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (3ms)
-			CreateAndSetChildDomain (428ms)
-		EndReloadAssembly (33037ms)
-			LoadAssemblies (3158ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (5261ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (1215ms)
-			SetupLoadedEditorAssemblies (20820ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1223ms)
-				SetLoadedEditorAssemblies (11ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (1713ms)
-				ProcessInitializeOnLoadAttributes (14648ms)
-				ProcessInitializeOnLoadMethodAttributes (3065ms)
-				AfterProcessingInitializeOnLoad (151ms)
-				EditorAssembliesLoaded (6ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (450ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.37 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Unloading 4556 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 5043.
-Memory consumption went from 170.5 MB to 170.5 MB.
-Total: 131.967333 ms (FindLiveObjects: 0.761333 ms CreateObjectMapping: 0.660625 ms MarkObjects: 130.352667 ms  DeleteObjects: 0.067458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.195380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 4.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in 44.769 seconds
-Domain Reload Profiling:
-	ReloadAssembly (44797ms)
-		BeginReloadAssembly (11291ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (913ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1374ms)
-		EndReloadAssembly (28916ms)
-			LoadAssemblies (7800ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (9240ms)
-			ReleaseScriptCaches (31ms)
-			RebuildScriptCaches (1457ms)
-			SetupLoadedEditorAssemblies (12598ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (437ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (1054ms)
-				ProcessInitializeOnLoadAttributes (8498ms)
-				ProcessInitializeOnLoadMethodAttributes (2466ms)
-				AfterProcessingInitializeOnLoad (129ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (271ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Unloading 4556 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 5046.
-Memory consumption went from 170.5 MB to 170.5 MB.
-Total: 23.347708 ms (FindLiveObjects: 7.194333 ms CreateObjectMapping: 1.448167 ms MarkObjects: 14.589333 ms  DeleteObjects: 0.061875 ms)
+Total: 8.399625 ms (FindLiveObjects: 0.397250 ms CreateObjectMapping: 0.479417 ms MarkObjects: 7.041958 ms  DeleteObjects: 0.422000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -296,369 +176,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 626501.209714 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/frustrated.png
-  artifactKey: Guid(b14a874c86c5f6345ae0f84ec697575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 215307.868278 seconds.
+  path: Assets/Sprites/Start/image-removebg-preview (11).png
+  artifactKey: Guid(a739d23f7a72787459ab6a16af91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/frustrated.png using Guid(b14a874c86c5f6345ae0f84ec697575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19733dba7d9d8243959871ddd4da5605') in 1.613586 seconds 
+Start importing Assets/Sprites/Start/image-removebg-preview (11).png using Guid(a739d23f7a72787459ab6a16af91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef12fae34bba99230e960afafb57f3b9') in 0.489402 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/FungusExamples/FungusTown/Sprites/FungusTown_1.png
-  artifactKey: Guid(76a1572c73453431aacb9f1f816e1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 244.612690 seconds.
+  path: Assets/Sprites/Start/image-removebg-preview (11).png
+  artifactKey: Guid(a739d23f7a72787459ab6a16af91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/FungusTown/Sprites/FungusTown_1.png using Guid(76a1572c73453431aacb9f1f816e1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49228241bfecde6c1fc4746e1f09886') in 0.478703 seconds 
+Start importing Assets/Sprites/Start/image-removebg-preview (11).png using Guid(a739d23f7a72787459ab6a16af91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f47b87b024a93725afb9d22bc3380d4') in 0.101632 seconds 
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/ill.png
-  artifactKey: Guid(779f8bb1130ec974aa263a5e91518085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/ill.png using Guid(779f8bb1130ec974aa263a5e91518085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589c6129f61fa7f5946d9c3d34aaf55a') in 0.179696 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Fungus/Textures/CreatedWith.psd
-  artifactKey: Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Fungus/Textures/CreatedWith.psd using Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a2a267d4b495145e54c8b87a60a3f6') in 0.086287 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/coughing.png
-  artifactKey: Guid(03f8d661d54a3a04797d21ab54424abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/coughing.png using Guid(03f8d661d54a3a04797d21ab54424abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e763cd90aa2f62f4138d3303619fc2c') in 0.192522 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Fungus/Textures/DialogBox.png
-  artifactKey: Guid(eeb00f6cd27e9ef4d9174551b3342dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Fungus/Textures/DialogBox.png using Guid(eeb00f6cd27e9ef4d9174551b3342dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d1f54e302279a1364bc2e4a07181d1') in 0.091691 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/regretful.png
-  artifactKey: Guid(64376d4849cae324a80743317c8aa539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/regretful.png using Guid(64376d4849cae324a80743317c8aa539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e48eac7d7efa9cd023e55b58db8387') in 0.183159 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Fungus/Textures/HistoryIcon.png
-  artifactKey: Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Fungus/Textures/HistoryIcon.png using Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb77d4c0de44c9d4bd55a9f9a41de767') in 0.060012 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fungus/Textures/FungusLogo.png
-  artifactKey: Guid(1b656a189e6154422a74e05a56c3f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Fungus/Textures/FungusLogo.png using Guid(1b656a189e6154422a74e05a56c3f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea913a099d2a423948220281c160bba') in 0.173226 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/regretful.png
-  artifactKey: Guid(36652428f3b9f6d41840d56c65aa0d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/regretful.png using Guid(36652428f3b9f6d41840d56c65aa0d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701b0b3143bc67c21f27df6a9819241') in 0.156767 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/concentrating.png
-  artifactKey: Guid(d8b4be5652abe8a438eb34290ae8c163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/concentrating.png using Guid(d8b4be5652abe8a438eb34290ae8c163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b672564a4b48b7ab3d2e4b85c0e480af') in 0.140765 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/eyeroll.png
-  artifactKey: Guid(a6b4fd71ceffb6e4b9f3272ef8a5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/eyeroll.png using Guid(a6b4fd71ceffb6e4b9f3272ef8a5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42e99b0e03b66b731fae7d5cda4a1ea') in 0.199800 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Fungus/Textures/GreyButton.png
-  artifactKey: Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Fungus/Textures/GreyButton.png using Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06f44e722c2b121af706c96d464aa89') in 0.074714 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/confused.png
-  artifactKey: Guid(059763178da334d408b6fa05fdea33c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/confused.png using Guid(059763178da334d408b6fa05fdea33c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4763c2f9c95cd1c62b1b96dd45b90') in 0.164616 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/FungusExamples/FungusTown/Sprites/FungusTown_3.png
-  artifactKey: Guid(1bf14d6bc24f540c49d36bec5f86a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/FungusTown/Sprites/FungusTown_3.png using Guid(1bf14d6bc24f540c49d36bec5f86a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756e79ff7d263657296d65fcbf7699c') in 0.444143 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/confident.png
-  artifactKey: Guid(75b6e7c8c9b6b4d40ae30dc671be34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/confident.png using Guid(75b6e7c8c9b6b4d40ae30dc671be34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bf1e13cc55fb27eab8a6585127dc3c') in 0.146961 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/FungusExamples/Playground/Sprites/Hexagon.png
-  artifactKey: Guid(d77e6458673a5ff4080857204d985f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Playground/Sprites/Hexagon.png using Guid(d77e6458673a5ff4080857204d985f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e5de9130144f60e7d109e6b27afde9') in 0.051210 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FungusExamples/Sherlock/Images/ImprobableStudios.png
-  artifactKey: Guid(eea3b26b25ca249f58d5659aabf1114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Images/ImprobableStudios.png using Guid(eea3b26b25ca249f58d5659aabf1114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82461779a06ce06f6e506c9d8006f2f0') in 0.123637 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/concentrating.png
-  artifactKey: Guid(bca405818493a4f4a8fb63a69294d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/concentrating.png using Guid(bca405818493a4f4a8fb63a69294d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a405a1398dca006632dd4a78043127e7') in 0.164245 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012267 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  6.724 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6732ms)
-		BeginReloadAssembly (1150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (89ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (219ms)
-		EndReloadAssembly (5107ms)
-			LoadAssemblies (751ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (512ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (3541ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (267ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (276ms)
-				ProcessInitializeOnLoadAttributes (2490ms)
-				ProcessInitializeOnLoadMethodAttributes (486ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Unloading 4556 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 5078.
-Memory consumption went from 170.7 MB to 170.7 MB.
-Total: 9.208708 ms (FindLiveObjects: 0.680833 ms CreateObjectMapping: 0.624167 ms MarkObjects: 7.699292 ms  DeleteObjects: 0.168208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 498.093798 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/shocked.png
-  artifactKey: Guid(6aedf8395780557418c4b84288657314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/shocked.png using Guid(6aedf8395780557418c4b84288657314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ae0c6d5a2e074d6b9ee35dc3baeb62') in 0.648661 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/suspicious.png
-  artifactKey: Guid(6d5c34a95aa09ce4a9be9f7258a02c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/suspicious.png using Guid(6d5c34a95aa09ce4a9be9f7258a02c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a3559112f22284b353a94d44f4259') in 0.180977 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/surprised.png
-  artifactKey: Guid(4cfc408caecceeb45989d991a2dccb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/surprised.png using Guid(4cfc408caecceeb45989d991a2dccb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd664864dfcb8366bb8bd88fdc031de23') in 0.165844 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FungusExamples/TheHunter/Sprites/Skipper.psd
-  artifactKey: Guid(ed14cc18e1e37449eb670f2613314102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/TheHunter/Sprites/Skipper.psd using Guid(ed14cc18e1e37449eb670f2613314102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0701237617e3445a9d720997e0e4a835') in 0.160445 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/thinking.png
-  artifactKey: Guid(e7a0368af3f28b1438c458df61e691c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/thinking.png using Guid(e7a0368af3f28b1438c458df61e691c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c67fd637aea6fce103fed161f87ce3') in 0.179088 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/FungusExamples/Playground/Sprites/Square.png
-  artifactKey: Guid(3cb7c35a750699348a04840d1ae1be5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Playground/Sprites/Square.png using Guid(3cb7c35a750699348a04840d1ae1be5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4e7902367481c7402c2c7046373f99') in 0.054762 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/tired.png
-  artifactKey: Guid(bd1b1199c415fc642ae13055981f42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/tired.png using Guid(bd1b1199c415fc642ae13055981f42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b051d108bfaab8c093b28ee546ec5a96') in 0.137509 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/FungusExamples/TheHunter/Sprites/Waterfall.jpg
-  artifactKey: Guid(e54c2166ac91140689c6f04097cab20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/TheHunter/Sprites/Waterfall.jpg using Guid(e54c2166ac91140689c6f04097cab20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0d49e64c642c9be2c4668555136f0d') in 0.442298 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/sorry.png
-  artifactKey: Guid(97171eca7b577c5438e9516b956c042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/sorry.png using Guid(97171eca7b577c5438e9516b956c042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc71425190445622ac939209d08bd449') in 0.180434 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/sulking.png
-  artifactKey: Guid(d38d394fe4d92ae4da3d41e6ff3b0385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/sulking.png using Guid(d38d394fe4d92ae4da3d41e6ff3b0385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61f649bfdbdfb601bab6cf924f4ba10') in 0.146579 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/tired.png
-  artifactKey: Guid(3f74023835f9bd34d88b85ac04062465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/tired.png using Guid(3f74023835f9bd34d88b85ac04062465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b61821092cc430d2faead3f1267f41') in 0.154790 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FungusExamples/Sherlock/Portraits/John/worried.png
-  artifactKey: Guid(9ce6cf540ce2ece4dacce467ace3bca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FungusExamples/Sherlock/Portraits/John/worried.png using Guid(9ce6cf540ce2ece4dacce467ace3bca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a99a023e90cae4dc728dae9ed39e671') in 0.155180 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  6.675 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6682ms)
-		BeginReloadAssembly (953ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (101ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (5244ms)
-			LoadAssemblies (649ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (477ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (3608ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (276ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (308ms)
-				ProcessInitializeOnLoadAttributes (2530ms)
-				ProcessInitializeOnLoadMethodAttributes (458ms)
-				AfterProcessingInitializeOnLoad (26ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (62ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4556 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.7 KB). Loaded Objects now: 5087.
-Memory consumption went from 170.8 MB to 170.7 MB.
-Total: 7.782208 ms (FindLiveObjects: 0.641875 ms CreateObjectMapping: 0.705333 ms MarkObjects: 6.343792 ms  DeleteObjects: 0.058625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
