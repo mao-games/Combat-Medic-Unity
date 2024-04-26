@@ -1,30 +1,47 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Fungus;
 
 
 public class PreviousBlock : MonoBehaviour
 {
-    public Flowchart flowchart; // Змінна для збереження об'єкта Flowchart
-    private List<string> blockHistory = new List<string>(); // Історія виконаних блоків
-    private MenuDialog menuDialog; // Змінна для збереження MenuDialog
+    public Flowchart flowchart; 
+    private List<string> blockHistory = new List<string>();
+    private MenuDialog menuDialog;
+    public GameObject BackBtn;
+    public GameObject NoReturnText;
 
     void Start()
     {
-        BlockSignals.OnBlockStart += OnBlockStart; // Підписуємося на подію завершення блоку
-        menuDialog = MenuDialog.GetMenuDialog(); // Отримуємо доступ до MenuDialog
+        BlockSignals.OnBlockStart += OnBlockStart; 
+        menuDialog = MenuDialog.GetMenuDialog();
+    }
+    private void Update()
+    {
+        bool returning = flowchart.GetBooleanVariable("Return");
+        if (!returning)
+        {
+            BackBtn.SetActive(false);
+            NoReturnText.SetActive(true);
+        }
+        else
+        {
+            BackBtn.SetActive(true);
+            NoReturnText.SetActive(false);
+        }
     }
 
     void OnDestroy()
     {
-        BlockSignals.OnBlockStart -= OnBlockStart; // Відписуємося від події при знищенні об'єкту
+        BlockSignals.OnBlockStart -= OnBlockStart;
     }
 
     private void OnBlockStart(Block block)
     {
         if (!blockHistory.Contains(block.BlockName))
-            blockHistory.Add(block.BlockName); // Запис блоку в історію
+            blockHistory.Add(block.BlockName);
     }
 
     public void GoToPreviousBlock()
