@@ -1683,7 +1683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &680616704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1749,9 +1749,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266881346}
-        m_TargetAssemblyTypeName: LoadBar, Assembly-CSharp
-        m_MethodName: StartLoading
+      - m_Target: {fileID: 1411695871}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: BtnStartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2904,7 +2904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scale: {fileID: 1785930237}
   loadingScreen: {fileID: 1266881342}
-  loadingPanel: {fileID: 1701669457}
+  PlayButton: {fileID: 680616703}
+  LoadButton: {fileID: 1423021784}
 --- !u!1 &1269915860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,7 +3522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1423021785
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4270,6 +4271,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -4978,8 +4980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.8436, y: -740}
-  m_SizeDelta: {x: 1493.9547, y: 97.8214}
+  m_AnchoredPosition: {x: 33.402588, y: -740}
+  m_SizeDelta: {x: 1590.4471, y: 97.8214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785930237
 MonoBehaviour:

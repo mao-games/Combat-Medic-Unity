@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,14 +9,14 @@ public class LoadBar : MonoBehaviour
 {
     public Slider scale; 
     public GameObject loadingScreen; 
-    public GameObject loadingPanel; 
+    public GameObject PlayButton,LoadButton;
 
-    public void StartLoading()
+    public void Start()
     {
-        loadingScreen.SetActive(true); 
-        StartCoroutine(FakeLoadAsync()); 
+        loadingScreen.SetActive(true);
+        StartCoroutine(FakeLoadAsync());
     }
-
+    
     IEnumerator FakeLoadAsync()
     {
         float progress = 0.0f; 
@@ -28,8 +29,8 @@ public class LoadBar : MonoBehaviour
             if (progress >= 0.95f)
             {
                 yield return new WaitForSeconds(1.5f); 
-                loadingScreen.SetActive(false); 
-                loadingPanel.SetActive(true); 
+                PlayButton.SetActive(true);
+                LoadButton.SetActive(true);
             }
             yield return null;
         }
